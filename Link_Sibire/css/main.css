@@ -1,0 +1,245 @@
+
+/*главная ебака*/
+
+.imeging { 
+    width: 60%;
+    border-radius: 20px;    /* закругление */
+    position: relative;
+    left: 5%;
+    top: 50px;
+}
+
+body {
+    /* background-color: black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjsBbs3Ep5NYTMtKVUIPObrXhWkZ2sw583UA&usqp=CAU);
+    color: aqua; 
+    background-repeat: repeat-x;
+    background-position: center; */
+
+    background: black url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9N5ulfms5TL2L8aI47gYLJ3MulUy8ZH2yw3rcdNNenN18qDNV3yWe9hnJ27c9uInJA4k&usqp=CAU')
+    no-repeat center;
+    line-height: 100px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#second {
+    height: 300px; /*блять это главное ебало (не трохать) */
+}
+
+/* боковая панель */
+
+#header {
+    width: 200px;
+    height: 100%;
+    text-align: center;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    background: rgb(17, 17, 17);
+    line-height: 70px;
+    margin-bottom: 50px;
+    float: left;
+    position: fixed;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 50px;
+    font-size: 15px;
+}
+
+#footer {
+    margin-bottom: 0;
+    margin-top: 5px; /*бля ебать это отступ пон?*/
+    border-bottom: 0;
+    border-radius: 10px;
+    border-top: 2px solid red;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    border-bottom: 2px solid red;
+    background: #333;
+    color: #fff;
+    line-height: 70px;
+    margin-bottom: 50px;
+    float: left;
+    position:static;    
+    left: 1000px;
+}
+
+
+#xuy_dena {
+    color: red;
+    background: black;
+    height: 350px;
+    width: 85%;
+    border: 7px dotted red;    /*каемка из точек(может быть из чего угодно, ну почти)*/
+    border-bottom: 1;            /*убирает нижнюю часть каемки*/
+    border-top-style: solid;     /*делает верхнюю часть "чисто" ровной*/
+    border-style: double;        /*дублирует на боковые с верхей части*/
+    border-radius: 100px;          /*закругление, в пикселях закругление только углов, в процентах закругление зо круга*/
+    opacity: 1;                    /*прозрачность*/
+    margin: 0px 0px 0px 0px;        /*сдвиг внз, влв, ввх, прв*/
+    padding: 20px;
+    background-color: rgb(17, 17, 17);
+    font-size: 18px;
+    font-style:italic;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    letter-spacing: 9px;
+    line-height: 50px;
+    background-size: cover;
+    background-attachment: fixed;
+    position:relative;
+    left: 12%;
+    top: 250px;
+
+}
+
+#xuy_vane {
+    width: 85%;
+    color: red;
+    font-size: 18px;
+    font-style:italic;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    letter-spacing: 9px;
+    line-height: 50px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    left: 12%;
+    top: 300px;
+}
+
+/* обработка текста  */
+
+h1 {
+    background-color: rgb(17, 17, 17);
+
+}
+
+.main_link {
+    width: 85%;
+    color:red;    
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(17, 17, 17);
+    color: red;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    line-height: 50px; 
+    height: 2000px;
+    border: 7px dotted red;    /*каемка из точек(может быть из чего угодно, ну почти)*/
+    border-bottom: 1;            /*убирает нижнюю часть каемки*/
+    border-top-style: solid;     /*делает верхнюю часть "чисто" ровной*/
+    border-style: double;        /*дублирует на боковые с верхей части*/
+    border-radius: 1px ;          /*закругление, в пикселях закругление только углов, в процентах закругление зо круга*/
+    opacity: 1;                    /*прозрачность*/
+    margin: 0px 0px 0px 0px;        /*сдвиг внз, влв, ввх, прв*/
+    padding: 20px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 1450px;
+    left: 12%;
+
+}
+
+.main_link:hover {
+    color:red;
+    text-decoration: underline;
+    text-decoration-color: red;
+    cursor: pointer;
+
+}
+
+.text {
+    width: 85%;
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    top: 2100px;
+    left: 12%;
+}
+
+.textx {
+    width: 85%;
+    background-color: rgb(17, 17, 17);
+    color: red;
+    font-size: 18px;
+    font-style:italic;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    letter-spacing: 9px;
+    line-height: 50px;
+    position: relative;
+    top: 1670px;
+    left: 12%;    
+}
+
+.text:hover {
+    color:red;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    cursor: pointer;
+
+}
+
+#xuy::after{
+    width: 85%;
+    background-color: rgb(17, 17, 17);
+    content: "Что ВЗЯТЬ С СОБОЙ";
+    color: red;
+    text-decoration: line-through;
+    font-size: 30px; 
+    font-weight:bold;
+    position: relative;
+    top: 1670px;
+    left: 12%;
+}
+
+.tain_link:active {
+    text-decoration: line-through;
+}
+
+.main_link:visited {
+    color: grey;
+}
+
+/* характеристики вводных менющек */
+
+input {color: rgb(255, 0, 0); text-align: center;
+    width: 85%;
+    background-color: rgb(50, 17, 17);
+    height: 25px;
+    width: 518px;
+    font-size: 14px;
+    position: relative;
+    top: 1900px;
+    left: 12%;
+}
+
+input:focus {
+    color: red;
+    background-color: rgb(50, 17, 17);
+}
+
+#some_block {
+    position: fixed;
+    color: white;
+    background: red;
+    text-align: center;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%; 
+    left: 96%;
+    top: 90%;
+    
+}
